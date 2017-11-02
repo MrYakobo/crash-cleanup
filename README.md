@@ -15,6 +15,8 @@ $ du -sh
 ```
 Random files, just being around to take up precious space. `rm .*` is dangerous, and doing regexes in a shell script can become...cumbersome, dangerous too. But! Look no further, as this script aims at fixing all your problems.
 
+[![asciicast](https://asciinema.org/a/NEZx6x0afylxBc4CqyU8oiRmR.png)](https://asciinema.org/a/NEZx6x0afylxBc4CqyU8oiRmR)
+
 ## Usage
 `npm i -g crash-cleanup`
 
