@@ -1,0 +1,23 @@
+{
+  "name": "crash-cleanup",
+  "version": "1.0.0",
+  "description": "Cleans up those pesky files that scatters around Solus when doing a reboot.",
+  "main": "index.js",
+  "bin": {
+    "crash-cleanup": "index.js"
+  },
+  "keywords": [
+    "Solus",
+    "Crash",
+    "Cleanup",
+    "dotfile"
+  ],
+  "author": "Jakob Lindskog <jakob.lindskog@gmail.com>",
+  "license": "GPL",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "ora": "^1.3.0",
+    "walker": "^1.0.7",
+    "yesno": "0.0.1"
+  }
+}
